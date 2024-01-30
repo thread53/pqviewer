@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pqviewer"
+version = "0.1.0"
+description = "View Apache Parquet Files In Your Terminal"
+authors = ["Johnny Cage <thread53@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+textual = "==0.46.0"
+pyarrow = "==12.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+pqviewer = "pqviewer.cli:pqviewer"
