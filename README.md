@@ -3,12 +3,12 @@ View [Apache Parquet](https://parquet.apache.org/) Files In Your Terminal
 
 ![PQviewer](./pqviewer.svg)
 
-## Installing PQviewer
+## Installing PQViewer
 
-After installing Python 3.7 or above, install PQviewer using `pip`:
+After installing Python 3.7 or above, install PQViewer using `pip`:
 
 ```bash
-pip install PQviewer
+pip install pqviewer
 ```
 
 ## Using PQViewer with local parquet files
@@ -21,8 +21,8 @@ pqviewer "path/to/file.parquet"
 
 ## Navigation  
 Arrow keys or mouse to move around the table  
-Tab key to switch focus
-CTRL+C to Quit  
+Tab key to switch focus  
+CTRL+C to Quit   
 
 ## Contributions
 Any contributions, features and improvements are welcome. Please, open an issue so we can start discussion.

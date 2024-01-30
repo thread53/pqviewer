@@ -1,6 +1,6 @@
 # import pytest
 
-# from src.pqviewer.cli import pqviewer
+# from pqviewer.cli import pqviewer
 
 # def test_main():
 #     pqviewer()

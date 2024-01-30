@@ -1,20 +1,21 @@
-[build-system]
-requires = ["setuptools>=40.6.0", "wheel"]
-build-backend = "setuptools.build_meta"
-
-[project]
+[tool.poetry]
 name = "pqviewer"
-version = "0.0.1"
+version = "0.1.0"
 description = "View Apache Parquet Files In Your Terminal"
-dependencies = [
-  "textual",
-  "pyarrow"
-]
-authors = [{name = "thread53", email = "thread53@users.noreply.github.com"}]
-license = {text = "MIT License"}
+authors = ["Johnny Cage <thread53@users.noreply.github.com>"]
+license = "MIT"
 readme = "README.md"
-keywords = ["parquet", "terminal", "tui", "cli", "python"]
-requires-python = ">=3.7"
 
-[project.scripts]
+[tool.poetry.dependencies]
+python = "^3.7"
+textual = "==0.46.0"
+pyarrow = "==12.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
 pqviewer = "pqviewer.cli:pqviewer"
