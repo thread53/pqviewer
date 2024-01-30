@@ -1,7 +1,7 @@
 # PQViewer
 View [Apache Parquet](https://parquet.apache.org/) Files In Your Terminal  
 
-![PQviewer](https://raw.githubusercontent.com/pqviewer/pqviewer.png)
+![PQViewer](https://github.com/thread53/pqviewer/blob/develop/version-0.0.1/pqviewer.png)
 
 ## Installing PQViewer
 
