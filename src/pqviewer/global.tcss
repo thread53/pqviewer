@@ -1,0 +1,41 @@
+TableSchema {
+    width: 0.5fr;
+}
+
+TableContent {
+    width: 1fr;
+}
+
+DataTable {
+    background: $surface;
+    color: $text;
+    height: 100%;
+    scrollbar-size: 1 1;
+    scrollbar-background: $panel;
+    scrollbar-background-active: $panel;
+    scrollbar-background-hover: $panel;
+    scrollbar-color: #F8DE7E;
+    scrollbar-color-active: #F8DE7E;
+    scrollbar-color-hover: #F8DE7E;
+}
+
+DataTable > .datatable--header {
+    text-style: bold;
+    background: $panel;
+    color: white;
+}
+
+DataTable > .datatable--cursor {
+    text-style: bold;
+    background: #F8DE7E;
+}
+
+DataTable > .datatable--hover {
+    text-style: bold;
+    background: $boost;
+}
+
+Footer {
+    background: $surface;
+    color: #F8DE7E;
+}
