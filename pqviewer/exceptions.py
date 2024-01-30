@@ -24,10 +24,10 @@ class PQViewerFilePathError(PQViewerError):
 def pretty_print_error(error: PQViewerError) -> None:
     return print(
         Panel.fit(
-        str(error),
-        title="PQViewer encountered an error.",
-        title_align="left",
-        border_style="red",
-        highlight=True,
+            str(error),
+            title="PQViewer encountered an error.",
+            title_align="left",
+            border_style="red",
+            highlight=True,
         )
     )
