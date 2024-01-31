@@ -5,7 +5,7 @@ View [Apache Parquet](https://parquet.apache.org/) Files In Your Terminal
 
 ## Installing PQViewer
 
-After installing Python 3.7 or above, install PQViewer using `pip` with:
+After installing Python 3.8 or above, install PQViewer using `pip` with:
 
 ```bash
 pip install pqviewer
@@ -28,7 +28,7 @@ CTRL+C to Quit
 Any contributions, features and improvements are welcome. Please, open an issue so we can start discussion.
 
 ## Acknowledgements
-PQViewer is build using 
+PQViewer is build using  
 [Textual](https://github.com/Textualize/textual)  
 [Rich](https://github.com/Textualize/rich)  
 [PyArrow](https://arrow.apache.org/docs/python/index.html)

@@ -7,7 +7,7 @@ from pqviewer.table_content import TableContent
 
 
 class PQViewer(App):
-    
+
     CSS_PATH = "global.tcss"
 
     def __init__(self, parsed_file):
