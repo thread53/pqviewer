@@ -1,13 +1,19 @@
 [tool.poetry]
 name = "pqviewer"
-version = "0.1.0"
+version = "0.1.3"
 description = "View Apache Parquet Files In Your Terminal"
-authors = ["Johnny Cage <thread53@users.noreply.github.com>"]
+authors = ["thread53 <thread53@users.noreply.github.com>"]
 license = "MIT"
+repository = "https://github.com/thread53/pqviewer"
 readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3.8",
+    "Environment :: Console :: Curses",
+    "License :: OSI Approved :: MIT License"
+]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.8"
 textual = "==0.46.0"
 pyarrow = "==12.0.1"
 
