@@ -20,3 +20,4 @@ def pqviewer():
         app.run()
     else:
         sys.exit(pretty_print_error(f"The specified path does not exist.\n'{file_path}'"))
+
