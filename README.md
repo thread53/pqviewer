@@ -25,6 +25,7 @@ pqviewer "path/to/file.parquet"
 
 ## Navigation  
 <kbd>&#8592;</kbd> <kbd>&#8594;</kbd> <kbd>&#8593;</kbd> <kbd>&#8595;</kbd> Move around the table  
+<kbd>PgUp</kbd> <kbd>PgDn</kbd> Scroll up or down
 <kbd>Tab</kbd> Switch focus  
 <kbd>Ctrl</kbd> + <kbd>C</kbd> Quit  
 
