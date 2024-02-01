@@ -1,4 +1,8 @@
 # PQViewer
+
+[![PyPI](https://img.shields.io/pypi/v/pqviewer)](https://pypi.org/project/pqviewer/)  
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pqviewer)  
+
 View [Apache Parquet](https://parquet.apache.org/) Files In Your Terminal  
 
 ![PQViewer](https://github.com/thread53/pqviewer/blob/main/pqviewer.png)
@@ -20,9 +24,10 @@ pqviewer "path/to/file.parquet"
 ```
 
 ## Navigation  
-Arrow keys or mouse to move around the table  
-Tab key to switch focus  
-CTRL+C to Quit   
+<kbd>&#8592;</kbd> <kbd>&#8594;</kbd> <kbd>&#8593;</kbd> <kbd>&#8595;</kbd> Move around the table  
+<kbd>Tab</kbd> Switch focus  
+<kbd>Ctrl</kbd> + <kbd>C</kbd> Quit  
+
 
 ## Contributions
 Any contributions, features and improvements are welcome. Please, open an issue so we can start discussion.
