@@ -6,7 +6,7 @@ from textual.widgets import Static
 
 class HelpScreen(ModalScreen):
     """Screen with a dialog to quit."""
-
+    
     keybinds = """Arrows: Move around the table\nPgUp: Scroll up\nPgDn: Scroll down\nTab: Switch focus"""
 
     def compose(self) -> ComposeResult:
