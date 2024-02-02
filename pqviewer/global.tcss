@@ -14,9 +14,6 @@ DataTable {
     scrollbar-background: $panel;
     scrollbar-background-active: $panel;
     scrollbar-background-hover: $panel;
-    scrollbar-color: #F8DE7E;
-    scrollbar-color-active: #F8DE7E;
-    scrollbar-color-hover: #F8DE7E;
 }
 
 DataTable > .datatable--header {
@@ -37,5 +34,45 @@ DataTable > .datatable--hover {
 
 Footer {
     background: $surface;
-    color: #F8DE7E;
+}
+
+Footer > .footer--key {
+    text-style: bold;
+    background: $boost;
+}
+
+Footer > .footer--description {
+    background: $surface;
+    color: $text-muted;
+}
+
+Footer > .footer--highlight {
+    background: $surface;
+    color: $text-muted;
+}
+
+Footer > .footer--highlight-key {
+    background: $surface;
+    text-style: bold;
+}
+
+HelpScreen {
+    align: center middle;
+}
+
+#help_panel {
+    padding: 0 1;
+    width: 60;
+    height: 11;
+    background: $surface;
+}
+
+#help_content {
+    padding: 0 1;
+}
+
+#help_footer {
+    padding: 0 1;
+    dock: bottom;
+    color: $text-muted;
 }
