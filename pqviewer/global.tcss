@@ -68,7 +68,7 @@ HelpScreen {
 }
 
 #help_content {
-	border: heavy #777;
+    border: heavy #777;
     padding: 0 1;
 }
 
