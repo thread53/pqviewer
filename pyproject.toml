@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pqviewer"
-version = "0.2.0"
+version = "0.2.1"
 description = "View Apache Parquet Files In Your Terminal"
 authors = ["thread53 <thread53@users.noreply.github.com>"]
 license = "MIT"
