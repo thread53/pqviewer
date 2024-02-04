@@ -17,5 +17,8 @@ class TableSchema(Widget):
         table = self.query_one(DataTable)
         table.styles.border = ("heavy", "#F8DE7E")
         table.border_title = "Schema"
+        table.styles.scrollbar_color = "#F8DE7E"
+        table.styles.scrollbar_color_active = "#F8DE7E"
+        table.styles.scrollbar_color_hover = "#F8DE7E"
         table.add_columns(*[("column", "type")][0])
         table.add_rows(self.parsed_file.schema())
