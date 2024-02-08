@@ -26,5 +26,5 @@ class PQViewer(App):
         yield TableFooter()
 
     def action_help_screen(self) -> None:
-        """Action to display the quit dialog."""
+        """Action to display the help screen dialog."""
         self.push_screen(HelpScreen())
