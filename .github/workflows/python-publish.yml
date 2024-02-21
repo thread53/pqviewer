@@ -25,7 +25,7 @@ jobs:
         pip install build
     - name: Test with pytest
       run: |
-        pip install pytest
+        pip install -r requirements-dev.txt
         pytest -vv
     - name: Build package
       run: python -m build
