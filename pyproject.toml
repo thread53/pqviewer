@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pqviewer"
-version = "0.2.4"
+version = "0.2.5"
 description = "View Apache Parquet Files In Your Terminal"
 authors = ["thread53 <thread53@users.noreply.github.com>"]
 license = "MIT"
@@ -16,7 +16,7 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.8"
 textual = "==0.46.0"
-pyarrow = "==12.0.1"
+pyarrow = "==14.0.1"
 
 
 [build-system]
