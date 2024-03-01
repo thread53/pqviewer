@@ -34,7 +34,7 @@ pqviewer "path/to/file.parquet"
 Any contributions, features and improvements are welcome. Please, open an issue so we can start discussion.
 
 ## Acknowledgements
-PQViewer is build using  
+PQViewer is built using  
 [Textual](https://github.com/Textualize/textual)  
 [Rich](https://github.com/Textualize/rich)  
 [PyArrow](https://arrow.apache.org/docs/python/index.html)
