@@ -26,6 +26,7 @@ pqviewer "path/to/file.parquet"
 ## Navigation  
 <kbd>&#8592;</kbd> <kbd>&#8594;</kbd> <kbd>&#8593;</kbd> <kbd>&#8595;</kbd> Move around the table  
 <kbd>PgUp</kbd> <kbd>PgDn</kbd> Scroll up or down  
+<kbd>T</kbd> Change Theme  
 <kbd>Tab</kbd> Switch focus  
 <kbd>Ctrl</kbd> + <kbd>C</kbd> Quit  
 
@@ -34,7 +35,7 @@ pqviewer "path/to/file.parquet"
 Any contributions, features and improvements are welcome. Please, open an issue so we can start discussion.
 
 ## Acknowledgements
-PQViewer is build using  
+PQViewer is built using  
 [Textual](https://github.com/Textualize/textual)  
 [Rich](https://github.com/Textualize/rich)  
 [PyArrow](https://arrow.apache.org/docs/python/index.html)

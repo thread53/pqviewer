@@ -24,7 +24,7 @@ DataTable > .datatable--header {
 
 DataTable > .datatable--cursor {
     text-style: bold;
-    background: #F8DE7E;
+    background: $primary-background;
 }
 
 DataTable > .datatable--hover {
@@ -61,6 +61,7 @@ HelpScreen {
 }
 
 #help_panel {
+    border: heavy #777;
     padding: 0 1;
     width: 60;
     height: 11;
@@ -76,4 +77,14 @@ HelpScreen {
     padding: 0 1;
     dock: bottom;
     color: $text-muted;
+}
+
+ThemeSelect {
+    align: center middle;
+}
+
+#themes_content {
+    padding: 0;
+    width: 60;
+    background: $surface;
 }
