@@ -88,12 +88,3 @@ ThemeSelect {
     width: 60;
     background: $surface;
 }
-
-
-SelectOverlay {
-    border: tall $background;
-    background: $panel;
-    color: $text;
-    width: 100%;
-    padding: 0;
-}

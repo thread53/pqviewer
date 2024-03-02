@@ -16,6 +16,7 @@ class ThemeSelect(ModalScreen):
                 "[#FF5733]crimson",
                 "[#0000ff]blue",
             ],
+            prompt="Select a theme",
             id="themes_content",
         )
 

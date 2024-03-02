@@ -2,7 +2,6 @@ from textual.app import App, ComposeResult
 from textual.containers import Horizontal
 from textual.binding import Binding
 from textual.reactive import var
-from textual.widgets import DataTable
 
 from pqviewer.table_header import TableHeader
 from pqviewer.table_schema import TableSchema
