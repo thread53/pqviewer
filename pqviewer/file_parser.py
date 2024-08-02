@@ -16,6 +16,14 @@ class FileParser:
             for name in self.table.column_names
         ]
 
+    def number_columns(self) -> int:
+        """Get number of columns."""
+        return self.table.num_columns
+    
+    def number_rows(self) -> int:
+        """Get number of rows."""
+        return self.table.num_rows
+
     def to_table(self) -> List[tuple]:
         """Transform table content to list."""
 
@@ -23,5 +31,3 @@ class FileParser:
         table_content = [tuple(row.values()) for row in self.table.to_pylist()]
         return table_header + table_content
 
-    def __len__(self) -> int:
-        return len(self.table)
