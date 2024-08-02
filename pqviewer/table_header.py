@@ -11,7 +11,7 @@ class TableHeader(Widget):
         super().__init__(id=id)
 
     def compose(self) -> ComposeResult:
-        yield Label(self.file_name)
+        yield Label(self.file_name, shrink=True)
 
     def on_mount(self) -> None:
         self.styles.height = "auto"
