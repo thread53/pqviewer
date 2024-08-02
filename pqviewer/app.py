@@ -52,6 +52,7 @@ class PQViewer(App):
         datatable_schema.styles.scrollbar_color_active = color_hex
         datatable_schema.styles.scrollbar_color_hover = color_hex
         datatable_schema.border_title = "Schema"
+        datatable_schema.border_subtitle = f"Total columns: {self.parsed_file.number_columns()}"
 
         datatable_content = self.query_one("#datatable_content")
         datatable_content.styles.border = ("heavy", color_hex)
@@ -59,7 +60,7 @@ class PQViewer(App):
         datatable_content.styles.scrollbar_color_active = color_hex
         datatable_content.styles.scrollbar_color_hover = color_hex
         datatable_content.border_title = "Table"
-        datatable_content.border_subtitle = f"Total rows: {len(self.parsed_file)}"
+        datatable_content.border_subtitle = f"Total rows: {self.parsed_file.number_rows()}"
 
     def action_help_screen(self) -> None:
         """Action to display the help screen dialog."""
