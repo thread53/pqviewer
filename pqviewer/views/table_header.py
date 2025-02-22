@@ -1,7 +1,7 @@
 from textual.app import Widget, ComposeResult
 from textual.widgets import Label
 
-from pqviewer.file_parser import FileParser
+from pqviewer.core.file_parser import FileParser
 
 
 class TableHeader(Widget):
