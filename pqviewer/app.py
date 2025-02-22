@@ -3,12 +3,12 @@ from textual.containers import Horizontal
 from textual.binding import Binding
 from textual.reactive import var
 
-from pqviewer.table_header import TableHeader
-from pqviewer.table_schema import TableSchema
-from pqviewer.table_content import TableContent
-from pqviewer.table_footer import TableFooter
-from pqviewer.help_screen import HelpScreen
-from pqviewer.themes_screen import ThemeSelect
+from pqviewer.views.table_header import TableHeader
+from pqviewer.views.table_schema import TableSchema
+from pqviewer.views.table_content import TableContent
+from pqviewer.views.table_footer import TableFooter
+from pqviewer.views.help_screen import HelpScreen
+from pqviewer.views.themes_screen import ThemeSelect
 
 
 THEMES = {
@@ -25,8 +25,8 @@ class PQViewer(App):
     CSS_PATH = "global.tcss"
     BINDINGS = [
         Binding("ctrl+c", "quit", "Quit"),
-        Binding("h", "help_screen", "Help"),
         Binding("t", "themes_screen", "Themes"),
+        Binding("h", "help_screen", "Help")
     ]
     theme = var("vegas")
 

@@ -1,14 +1,16 @@
 import sys
 import os
 
-from pqviewer.file_parser import FileParser
+from pqviewer.core.file_parser import FileParser
 from pqviewer.app import PQViewer
-from pqviewer.exceptions import pretty_print_error
+from pqviewer.exceptions.exceptions import pretty_print_error
 
 
 def pqviewer() -> None:
     """Main entry point"""
 
+    if len(sys.argv) < 2:
+        sys.exit(pretty_print_error("No file path provided."))
     file_path = sys.argv[1]
     if os.path.exists(file_path):
         try:
